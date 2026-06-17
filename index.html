@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shireen Al-Sabea | MEAL & Projects Coordinator Portfolio</title>
+    <meta name="description" content="Professional portfolio of Shireen Al-Sabea, specializing in Monitoring, Evaluation, Accountability, and Learning (MEAL) & Project Coordination for NGOs.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo-link">
+                <!-- Fallback SVG wrapper. Will load logo.png if it exists, otherwise uses beautiful SVG fallback -->
+                <div class="logo-img-container" style="position: relative; width: 40px; height: 40px;">
+                    <img src="assets/logo.png" alt="Shireen Al-Sabea Logo" class="logo-img" style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit:contain; z-index:2;" onerror="this.style.opacity='0';">
+                    <!-- Inline SVG logo matching the theme (S-curve, bridge, data network, community hand) -->
+                    <svg viewBox="0 0 100 100" style="position: absolute; top:0; left:0; width:100%; height:100%; fill:none; stroke-linecap:round; stroke-linejoin:round; z-index:1;">
+                        <path d="M50,12 C75,12 80,32 50,50 C20,68 25,88 50,88" stroke="url(#logo-grad)" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+                        <!-- Left Network (Data) -->
+                        <line x1="26" y1="36" x2="16" y2="48" stroke="#0A3C72" stroke-width="1.5"/>
+                        <line x1="16" y1="48" x2="28" y2="60" stroke="#0A3C72" stroke-width="1.5"/>
+                        <line x1="26" y1="36" x2="28" y2="60" stroke="#0A3C72" stroke-width="1.5"/>
+                        <circle cx="26" cy="36" r="3.5" fill="#0A3C72"/>
+                        <circle cx="16" cy="48" r="3.5" fill="#0A3C72"/>
+                        <circle cx="28" cy="60" r="3.5" fill="#0A3C72"/>
+                        <!-- Right Community (Humanitarian) -->
+                        <circle cx="74" cy="36" r="4.5" fill="#E66A1F"/>
+                        <path d="M65,48 Q74,42 83,48" stroke="#E66A1F" stroke-width="2.5"/>
+                        <path d="M60,62 Q74,52 88,62" stroke="#E66A1F" stroke-width="2.5"/>
+                        <!-- Center Bridge -->
+                        <path d="M22,54 Q50,32 78,54" stroke="#0A3C72" stroke-width="3"/>
+                        <path d="M22,60 Q50,42 78,60" stroke="#E66A1F" stroke-width="3"/>
+                        <line x1="50" y1="39" x2="50" y2="51" stroke="#0A3C72" stroke-width="2.5"/>
+                        <defs>
+                            <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#0A3C72"/>
+                                <stop offset="100%" stop-color="#E66A1F"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span>Shireen Al-Sabea</span>
+            </a>
+            
+            <nav class="nav-links-wrapper">
+                <ul class="nav-links">
+                    <li class="nav-item"><a href="index.html" class="active">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About</a></li>
+                    <li class="nav-item"><a href="tools.html">MEAL & NGO Tools</a></li>
+                    <li class="nav-item"><a href="case-study.html">Case Study</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-controls">
+                <button class="theme-toggle" aria-label="Toggle Theme">
+                    <span class="moon-icon">🌙</span>
+                    <span class="sun-icon">☀️</span>
+                </button>
+                <button class="menu-btn" aria-label="Open Mobile Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container grid-2">
+            <div class="hero-content reveal-left active">
+                <p class="hero-subtitle">Monitoring • Evaluation • Learning</p>
+                <h1 class="hero-title">Bridging <span class="text-gradient-blue">Data</span> and <span class="text-gradient-orange">Humanity</span></h1>
+                <p class="hero-description">
+                    As a MEAL & Project Coordinator, I design indicators, deploy tech-driven data collection, and coordinate stakeholder networks to ensure humanitarian programs deliver real, lasting impact.
+                </p>
+                <div class="hero-buttons">
+                    <a href="case-study.html" class="btn btn-primary">View Case Study</a>
+                    <a href="contact.html" class="btn btn-outline">Let's Connect</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal-right active">
+                <!-- Large Interactive Logo/Visual Card representing the core themes -->
+                <div class="glass-card" style="position: relative; width: 100%; max-width: 450px; text-align: center; overflow: hidden;">
+                    <div style="margin-bottom: 2rem; display: inline-flex; justify-content: center; align-items: center; background: rgba(10, 60, 114, 0.05); padding: 2.5rem; border-radius: 50%; border: 1px dashed rgba(10, 60, 114, 0.15);">
+                        <!-- Large version of theme logo -->
+                        <svg viewBox="0 0 100 100" width="120" height="120" style="fill:none; stroke-linecap:round; stroke-linejoin:round;">
+                            <path d="M50,12 C75,12 80,32 50,50 C20,68 25,88 50,88" stroke="url(#hero-logo-grad)" stroke-width="4.5"/>
+                            <!-- Left Network -->
+                            <line x1="26" y1="36" x2="16" y2="48" stroke="#0A3C72" stroke-width="2"/>
+                            <line x1="16" y1="48" x2="28" y2="60" stroke="#0A3C72" stroke-width="2"/>
+                            <line x1="26" y1="36" x2="28" y2="60" stroke="#0A3C72" stroke-width="2"/>
+                            <circle cx="26" cy="36" r="4.5" fill="#0A3C72"/>
+                            <circle cx="16" cy="48" r="4.5" fill="#0A3C72"/>
+                            <circle cx="28" cy="60" r="4.5" fill="#0A3C72"/>
+                            <!-- Right Community -->
+                            <circle cx="74" cy="36" r="5.5" fill="#E66A1F"/>
+                            <path d="M65,48 Q74,42 83,48" stroke="#E66A1F" stroke-width="3"/>
+                            <path d="M60,62 Q74,52 88,62" stroke="#E66A1F" stroke-width="3"/>
+                            <!-- Center Bridge -->
+                            <path d="M22,54 Q50,32 78,54" stroke="#0A3C72" stroke-width="3.5"/>
+                            <path d="M22,60 Q50,42 78,60" stroke="#E66A1F" stroke-width="3.5"/>
+                            <line x1="50" y1="39" x2="50" y2="51" stroke="#0A3C72" stroke-width="3"/>
+                            <defs>
+                                <linearGradient id="hero-logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#0A3C72"/>
+                                    <stop offset="100%" stop-color="#E66A1F"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Shireen Al-Sabea</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem;">MEAL & Projects Coordinator</p>
+                    <div style="display: flex; justify-content: center; gap: 0.75rem;">
+                        <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; background: rgba(10, 60, 114, 0.08); color: var(--primary-blue); padding: 0.35rem 0.75rem; border-radius: 20px;">Data Analysis</span>
+                        <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; background: rgba(230, 106, 31, 0.08); color: var(--secondary-orange); padding: 0.35rem 0.75rem; border-radius: 20px;">NGO Systems</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Pillars / Philosophy Section -->
+    <section class="section" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 5rem;">
+                <span class="section-tag">Core Competencies</span>
+                <h2 class="section-title">A Methodological Approach to Impact</h2>
+                <p class="section-subtitle" style="margin-left: auto; margin-right: auto;">
+                    Maximizing project success by integrating rigorous data analytics (the blue network) with community-driven support and learning (the orange handshake).
+                </p>
+            </div>
+
+            <div class="about-features reveal stagger-child">
+                <!-- Card 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Monitoring &amp; Evaluation</h3>
+                    <p>Designing comprehensive MEAL frameworks, indicator matrices, and logical models (LogFrames) to track implementation fidelity and assess results.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Project Coordination</h3>
+                    <p>Bridging gaps between field staff, donors, and local communities. Aligning project resources and schedules to resolve complex challenges on the ground.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Accountability &amp; Learning</h3>
+                    <p>Structuring functional community feedback loops (FCRM), safeguarding mechanisms, and documenting lessons learned to iteratively adapt program structures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Case Study Callout -->
+    <section class="section">
+        <div class="container grid-2">
+            <div class="reveal-left">
+                <div class="glass-card" style="padding: 0; overflow: hidden; border-radius: var(--radius-lg);">
+                    <!-- Visual representation of evaluation data -->
+                    <div style="background: linear-gradient(135deg, var(--primary-blue), var(--accent-blue)); color: white; padding: 4rem 3rem; position: relative;">
+                        <span style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; background: rgba(255,255,255,0.2); padding: 0.35rem 0.75rem; border-radius: 20px; display: inline-block; margin-bottom: 1.5rem;">Featured Case Study</span>
+                        <h3 style="font-size: 1.8rem; line-height: 1.2; font-weight: 800; margin-bottom: 1rem; color: #ffffff;">Syrian Refugee Education Initiative</h3>
+                        <p style="color: rgba(255, 255, 255, 0.85); font-size: 0.95rem; margin-bottom: 0;">Evaluation of a multi-sectoral humanitarian response in Lebanon, using KoboToolbox datasets and PowerBI dashboards.</p>
+                        <!-- Floating graphic detail -->
+                        <div style="position: absolute; bottom: -20px; right: -20px; opacity: 0.15; font-size: 10rem; pointer-events: none;">📈</div>
+                    </div>
+                    <div style="padding: 2.5rem; display: flex; justify-content: space-between; align-items: center; background-color: var(--bg-secondary);">
+                        <div>
+                            <h4 style="font-size: 1rem; margin-bottom: 0.25rem;">Impact Evaluated</h4>
+                            <p style="color: var(--text-muted); font-size: 0.85rem;">2,500+ Beneficiaries in Bekaa &amp; Beirut</p>
+                        </div>
+                        <a href="case-study.html" class="btn btn-secondary">Read Full Study</a>
+                    </div>
+                </div>
+            </div>
+            <div class="reveal-right" style="display: flex; flex-direction: column; justify-content: center;">
+                <span class="section-tag">Case Study Spotlight</span>
+                <h2 class="section-title">M&amp;E in Action</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.05rem;">
+                    Discover how I set up indicators, administered quantitative surveys, managed database structures, and utilized visual reporting systems to optimize an educational program's execution.
+                </p>
+                <div style="display: flex; flex-direction: column; gap: 1rem;">
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <span style="width: 24px; height: 24px; border-radius: 50%; background-color: rgba(10, 60, 114, 0.1); color: var(--primary-blue); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem;">1</span>
+                        <span style="font-weight: 600; font-size: 0.95rem; color: var(--text-secondary);">Framework Design (LogFrame, Indicators)</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <span style="width: 24px; height: 24px; border-radius: 50%; background-color: rgba(10, 60, 114, 0.1); color: var(--primary-blue); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem;">2</span>
+                        <span style="font-weight: 600; font-size: 0.95rem; color: var(--text-secondary);">Mobile Data Collection (KoboToolbox surveys)</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <span style="width: 24px; height: 24px; border-radius: 50%; background-color: rgba(10, 60, 114, 0.1); color: var(--primary-blue); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem;">3</span>
+                        <span style="font-weight: 600; font-size: 0.95rem; color: var(--text-secondary);">Dashboard Visualizations (KPI Tracking)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <a href="index.html" class="footer-logo">
+                <span style="color: var(--primary-blue)">Shireen Al-Sabea</span>
+            </a>
+            <ul class="footer-socials">
+                <li><a href="https://www.linkedin.com/in/shireenalsabea" target="_blank" aria-label="LinkedIn">LN</a></li>
+                <li><a href="mailto:shireen.alsabea@example.com" aria-label="Email">✉</a></li>
+            </ul>
+            <p class="footer-copyright">&copy; 2026 Shireen Al-Sabea. All rights reserved. Portfolio designed for MEAL &amp; Project Coordination.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

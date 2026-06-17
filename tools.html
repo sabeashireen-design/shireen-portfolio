@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEAL & NGO Tools Matrix | Shireen Al-Sabea</title>
+    <meta name="description" content="Explore Shireen Al-Sabea's technical stack of Monitoring, Evaluation, and project management tools, including KoboToolbox, PowerBI, SPSS, and GIS.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo-link">
+                <div class="logo-img-container" style="position: relative; width: 40px; height: 40px;">
+                    <img src="assets/logo.png" alt="Shireen Al-Sabea Logo" class="logo-img" style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit:contain; z-index:2;" onerror="this.style.opacity='0';">
+                    <svg viewBox="0 0 100 100" style="position: absolute; top:0; left:0; width:100%; height:100%; fill:none; stroke-linecap:round; stroke-linejoin:round; z-index:1;">
+                        <path d="M50,12 C75,12 80,32 50,50 C20,68 25,88 50,88" stroke="url(#logo-grad)" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+                        <line x1="26" y1="36" x2="16" y2="48" stroke="#0A3C72" stroke-width="1.5"/>
+                        <line x1="16" y1="48" x2="28" y2="60" stroke="#0A3C72" stroke-width="1.5"/>
+                        <line x1="26" y1="36" x2="28" y2="60" stroke="#0A3C72" stroke-width="1.5"/>
+                        <circle cx="26" cy="36" r="3.5" fill="#0A3C72"/>
+                        <circle cx="16" cy="48" r="3.5" fill="#0A3C72"/>
+                        <circle cx="28" cy="60" r="3.5" fill="#0A3C72"/>
+                        <circle cx="74" cy="36" r="4.5" fill="#E66A1F"/>
+                        <path d="M65,48 Q74,42 83,48" stroke="#E66A1F" stroke-width="2.5"/>
+                        <path d="M60,62 Q74,52 88,62" stroke="#E66A1F" stroke-width="2.5"/>
+                        <path d="M22,54 Q50,32 78,54" stroke="#0A3C72" stroke-width="3"/>
+                        <path d="M22,60 Q50,42 78,60" stroke="#E66A1F" stroke-width="3"/>
+                        <line x1="50" y1="39" x2="50" y2="51" stroke="#0A3C72" stroke-width="2.5"/>
+                        <defs>
+                            <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#0A3C72"/>
+                                <stop offset="100%" stop-color="#E66A1F"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span>Shireen Al-Sabea</span>
+            </a>
+            
+            <nav class="nav-links-wrapper">
+                <ul class="nav-links">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About</a></li>
+                    <li class="nav-item"><a href="tools.html" class="active">MEAL & NGO Tools</a></li>
+                    <li class="nav-item"><a href="case-study.html">Case Study</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-controls">
+                <button class="theme-toggle" aria-label="Toggle Theme">
+                    <span class="moon-icon">🌙</span>
+                    <span class="sun-icon">☀️</span>
+                </button>
+                <button class="menu-btn" aria-label="Open Mobile Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <section class="section" style="padding-top: 10rem;">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 4rem;">
+                <span class="section-tag">Technical Stack</span>
+                <h1 class="section-title">MEAL &amp; NGO Tool Matrix</h1>
+                <p class="section-subtitle" style="margin-left: auto; margin-right: auto;">
+                    An interactive review of the database platforms, analytics tools, mapping software, and conceptual planning frameworks I utilize daily.
+                </p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="tools-filter-container reveal active">
+                <button class="filter-btn active" data-filter="all">All Tools</button>
+                <button class="filter-btn" data-filter="data-collection">Data Collection</button>
+                <button class="filter-btn" data-filter="analytics">Analysis &amp; Viz</button>
+                <button class="filter-btn" data-filter="frameworks">Frameworks</button>
+                <button class="filter-btn" data-filter="mapping">Mapping</button>
+            </div>
+
+            <!-- Tools Grid -->
+            <div class="tools-grid reveal stagger-child active">
+                <!-- Tool 1 -->
+                <div class="tool-card" data-category="data-collection">
+                    <div class="tool-header">
+                        <div class="tool-logo-placeholder">📱</div>
+                        <span class="tool-category-badge">Data Collection</span>
+                    </div>
+                    <h3>KoboToolbox</h3>
+                    <p>Creating xlsforms, adding validation syntax, configuring skip-logics, setting constraints, and configuring offline API feeds for field team enumerators.</p>
+                    <div class="tool-proficiency">
+                        <div class="tool-proficiency-label">
+                            <span>Proficiency</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="tool-proficiency-bar">
+                            <div class="tool-proficiency-fill" data-value="95"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 2 -->
+                <div class="tool-card" data-category="analytics">
+                    <div class="tool-header">
+                        <div class="tool-logo-placeholder">📊</div>
+                        <span class="tool-category-badge">Analysis &amp; Viz</span>
+                    </div>
+                    <h3>PowerBI</h3>
+                    <p>Constructing interactive indicator matrices, designing automated dashboard links to Kobo datasets, visualising KPI metrics, and publishing monthly donor status reports.</p>
+                    <div class="tool-proficiency">
+                        <div class="tool-proficiency-label">
+                            <span>Proficiency</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="tool-proficiency-bar">
+                            <div class="tool-proficiency-fill" data-value="90"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 3 -->
+                <div class="tool-card" data-category="analytics">
+                    <div class="tool-header">
+                        <div class="tool-logo-placeholder">📈</div>
+                        <span class="tool-category-badge">Analysis &amp; Viz</span>
+                    </div>
+                    <h3>SPSS</h3>
+                    <p>Running statistical cross-tabulations, performing t-tests, evaluating significance intervals, and structuring quantitative survey datasets for baseline and endline evaluations.</p>
+                    <div class="tool-proficiency">
+                        <div class="tool-proficiency-label">
+                            <span>Proficiency</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="tool-proficiency-bar">
+                            <div class="tool-proficiency-fill" data-value="85"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 4 -->
+                <div class="tool-card" data-category="frameworks">
+                    <div class="tool-header">
+                        <div class="tool-logo-placeholder">📋</div>
+                        <span class="tool-category-badge">Frameworks</span>
+                    </div>
+                    <h3>Logical Frameworks</h3>
+                    <p>Designing indicators of verification (IoV), formulating operational risks, matching baseline indices, and connecting project milestones to outputs and impacts.</p>
+                    <div class="tool-proficiency">
+                        <div class="tool-proficiency-label">
+                            <span>Proficiency</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="tool-proficiency-bar">
+                            <div class="tool-proficiency-fill" data-value="95"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 5 -->
+                <div class="tool-card" data-category="frameworks">
+                    <div class="tool-header">
+                        <div class="tool-logo-placeholder">🗺️</div>
+                        <span class="tool-category-badge">Frameworks</span>
+                    </div>
+                    <h3>Theory of Change</h3>
+                    <p>Creating programmatic assumptions pathway diagrams, defining pre-conditions for change, structuring logical causal links, and modeling systemic impact patterns.</p>
+                    <div class="tool-proficiency">
+                        <div class="tool-proficiency-label">
+                            <span>Proficiency</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="tool-proficiency-bar">
+                            <div class="tool-proficiency-fill" data-value="90"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 6 -->
+                <div class="tool-card" data-category="data-collection">
+                    <div class="tool-header">
+                        <div class="tool-logo-placeholder">📂</div>
+                        <span class="tool-category-badge">Data Collection</span>
+                    </div>
+                    <h3>CommCare</h3>
+                    <p>Building longitudinal patient/beneficiary profiles, managing complex outreach tracking programs, and designing role-based permissions for mobile fieldwork.</p>
+                    <div class="tool-proficiency">
+                        <div class="tool-proficiency-label">
+                            <span>Proficiency</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="tool-proficiency-bar">
+                            <div class="tool-proficiency-fill" data-value="80"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 7 -->
+                <div class="tool-card" data-category="mapping">
+                    <div class="tool-header">
+                        <div class="tool-logo-placeholder">🌍</div>
+                        <span class="tool-category-badge">Mapping</span>
+                    </div>
+                    <h3>QGIS (GIS)</h3>
+                    <p>Creating spatial overlap maps of target communities, compiling buffer outreach sectors, displaying geocoded survey answers, and mapping community infrastructure.</p>
+                    <div class="tool-proficiency">
+                        <div class="tool-proficiency-label">
+                            <span>Proficiency</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="tool-proficiency-bar">
+                            <div class="tool-proficiency-fill" data-value="85"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 8 -->
+                <div class="tool-card" data-category="analytics">
+                    <div class="tool-header">
+                        <div class="tool-logo-placeholder">📒</div>
+                        <span class="tool-category-badge">Analysis &amp; Viz</span>
+                    </div>
+                    <h3>Advanced Excel</h3>
+                    <p>Utilizing complex nested formula combinations, cleaning raw source spreadsheets with PowerQuery, constructing pivot aggregates, and implementing basic VBA templates.</p>
+                    <div class="tool-proficiency">
+                        <div class="tool-proficiency-label">
+                            <span>Proficiency</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="tool-proficiency-bar">
+                            <div class="tool-proficiency-fill" data-value="95"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <a href="index.html" class="footer-logo">
+                <span style="color: var(--primary-blue)">Shireen Al-Sabea</span>
+            </a>
+            <ul class="footer-socials">
+                <li><a href="https://www.linkedin.com/in/shireenalsabea" target="_blank" aria-label="LinkedIn">LN</a></li>
+                <li><a href="mailto:shireen.alsabea@example.com" aria-label="Email">✉</a></li>
+            </ul>
+            <p class="footer-copyright">&copy; 2026 Shireen Al-Sabea. All rights reserved. Portfolio designed for MEAL &amp; Project Coordination.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
