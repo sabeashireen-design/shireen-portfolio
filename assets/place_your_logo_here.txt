@@ -1,3 +1,0 @@
-Please rename your logo file to 'logo.png' and place it in this folder.
-The website is currently configured to load 'logo.png' from this folder.
-If 'logo.png' is not present, the website will automatically load a beautiful custom SVG vector logo representation as a fallback.
